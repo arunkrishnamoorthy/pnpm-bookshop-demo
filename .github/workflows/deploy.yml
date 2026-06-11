@@ -1,0 +1,48 @@
+name: Build and Deploy to BTP
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Install MTA Build Tool
+        run: npm install -g mbt
+
+      - name: Build MTA archive
+        run: pnpm run build:mta
+
+      - name: Install CF CLI
+        run: |
+          wget -q -O cf-cli.deb "https://packages.cloudfoundry.org/stable?release=debian64&version=v8&source=github"
+          sudo dpkg -i cf-cli.deb
+          cf install-plugin multiapps -f
+
+      - name: Login to Cloud Foundry
+        run: |
+          cf login -a ${{ secrets.CF_API }} \
+            -u ${{ secrets.CF_USERNAME }} \
+            -p ${{ secrets.CF_PASSWORD }} \
+            -o ${{ secrets.CF_ORG }} \
+            -s ${{ secrets.CF_SPACE }}
+
+      - name: Deploy to BTP
+        run: pnpm run deploy:cf

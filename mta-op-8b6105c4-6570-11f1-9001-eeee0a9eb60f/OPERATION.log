@@ -1,0 +1,2721 @@
+#2026 06 11 08:35:47.434#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#http-nio-0.0.0.0-8080-exec-4#
+[XS2StartProcessListener] Operation ID: 8b6105c4-6570-11f1-9001-eeee0a9eb60f#
+#2026 06 11 08:35:47.454#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#http-nio-0.0.0.0-8080-exec-4#
+[XS2StartProcessListener] Process environment: {
+  "SKIP_SSL_VALIDATION" : "false",
+  "FLOWABLE_JOB_EXECUTOR_MAX_THREADS" : "32",
+  "VERSION" : "2.47.0",
+  "BASIC_AUTH_ENABLED" : "true",
+  "FLOWABLE_JOB_EXECUTOR_QUEUE_CAPACITY" : "16",
+  "FLOWABLE_JOB_EXECUTOR_CORE_THREADS" : "8"
+}#
+#2026 06 11 08:35:47.454#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#http-nio-0.0.0.0-8080-exec-4#
+[XS2StartProcessListener] Current user: arun.krishnamoorthy@aarini.com#
+#2026 06 11 08:35:47.454#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#http-nio-0.0.0.0-8080-exec-4#
+[XS2StartProcessListener] Client space: dev#
+#2026 06 11 08:35:47.454#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#http-nio-0.0.0.0-8080-exec-4#
+[XS2StartProcessListener] Client organization: 1dbf1420trial#
+#2026 06 11 08:35:47.454#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#http-nio-0.0.0.0-8080-exec-4#
+[XS2StartProcessListener] Process variables: {
+  "keepFiles" : false,
+  "skipAppDigestCalculation" : false,
+  "abortOnError" : false,
+  "mtaId" : "pnpm-bookshop",
+  "noFailOnMissingPermissions" : false,
+  "isSecurityEnabled" : false,
+  "apiRequestPath" : "https://deploy-service.cf.us10-001.hana.ondemand.com/api/v1/spaces/cf61afcd-6bd1-49a1-b8cb-fa31a94e72be/operations",
+  "deleteServiceBrokers" : false,
+  "appArchiveId" : "fc262053-7515-4d05-b9cc-933df484fb91",
+  "isDisposableUserProvidedServiceEnabled" : false,
+  "deleteServiceKeys" : false,
+  "noRestartSubscribedApps" : false,
+  "noStart" : false,
+  "deleteServices" : false
+}#
+#2026 06 11 08:35:47.496#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[ValidateDeployParametersStep] Executing task "validateParametersTask" of process "8b6105ea-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:35:47.496#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[ValidateDeployParametersStep] Validating parameters...#
+#2026 06 11 08:35:47.498#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[ValidateDeployParametersStep] Size of mtars is 6,287,203 and size of extension descriptors is 0#
+#2026 06 11 08:35:47.548#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[ValidateDeployParametersStep] Archive was not split! Total size in bytes: 6,287,203#
+#2026 06 11 08:35:47.548#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[ValidateDeployParametersStep] Deploying in org "1dbf1420trial" and space "dev"#
+#2026 06 11 08:35:47.553#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[ValidateDeployParametersStep] Parameters validated#
+#2026 06 11 08:35:47.553#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+Step "Validate Parameters" finished#
+#2026 06 11 08:35:47.581#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7203#
+[DeleteRemainingFileParts] Executing task "deleteRemainingFileParts" of process "8b6105ea-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:35:47.582#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7203#
+Step "Delete Remaining File Parts" finished#
+#2026 06 11 08:35:47.610#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[XS2ProcessMtaArchiveStep] Executing task "processArchiveTask" of process "8b6105ea-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:35:47.610#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[XS2ProcessMtaArchiveStep] Processing MTA archive...#
+#2026 06 11 08:35:47.610#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[XS2ProcessMtaArchiveStep] MTA Archive ID: fc262053-7515-4d05-b9cc-933df484fb91#
+#2026 06 11 08:35:47.728#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[XS2ProcessMtaArchiveStep] MTA Descriptor length: 959#
+#2026 06 11 08:35:47.728#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[XS2ProcessMtaArchiveStep] MTA Archive Modules: [pnpm-bookshop-srv, pnpm-bookshop-db-deployer]#
+#2026 06 11 08:35:47.728#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[XS2ProcessMtaArchiveStep] MTA Archive Requires: []#
+#2026 06 11 08:35:47.728#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[XS2ProcessMtaArchiveStep] MTA Archive Resources: [pnpm-bookshop-auth]#
+#2026 06 11 08:35:47.737#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[XS2ProcessMtaArchiveStep] MTA archive processed#
+#2026 06 11 08:35:47.737#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+Step "Process Archive" finished#
+#2026 06 11 08:35:47.774#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7205#
+[ProcessMtaExtensionDescriptorsStep] Executing task "processExtensionDescriptorsTask" of process "8b6105ea-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:35:47.774#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7205#
+[ProcessMtaExtensionDescriptorsStep] Processing MTA extension descriptors...#
+#2026 06 11 08:35:47.774#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7205#
+[ProcessMtaExtensionDescriptorsStep] Provided extension descriptors: [ ]#
+#2026 06 11 08:35:47.774#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7205#
+[ProcessMtaExtensionDescriptorsStep] No extension descriptors in use#
+#2026 06 11 08:35:47.775#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7205#
+[ProcessMtaExtensionDescriptorsStep] MTA extension descriptors processed#
+#2026 06 11 08:35:47.775#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7205#
+Step "Process Extension Descriptors" finished#
+#2026 06 11 08:35:47.803#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7206#
+[XS2DetectMtaSchemaVersionStep] Executing task "detectSchemaVersionTask" of process "8b6105ea-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:35:47.804#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7206#
+[XS2DetectMtaSchemaVersionStep] Detecting MTA major schema version...#
+#2026 06 11 08:35:47.805#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7206#
+[XS2DetectMtaSchemaVersionStep] Detected MTA schema version: "3"#
+#2026 06 11 08:35:47.810#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7206#
+Step "Detect Schema Version" finished#
+#2026 06 11 08:35:47.841#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7207#
+[MergeDescriptorsStep] Executing task "mergeDescriptorsTask" of process "8b6105ea-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:35:47.842#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7207#
+[MergeDescriptorsStep] Validating and merging descriptors...#
+#2026 06 11 08:35:47.843#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7207#
+[MergeDescriptorsStep] Merged deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "pnpm-bookshop",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-srv",
+    "type" : "javascript.nodejs",
+    "path" : "pnpm-bookshop-srv",
+    "properties" : { },
+    "parameters" : {
+      "buildpack" : "nodejs_buildpack",
+      "disk-quota" : "1024M",
+      "memory" : "256M"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "********",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "${default-url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-db-deployer",
+    "type" : "com.sap.xs.hdi",
+    "path" : "pnpm-bookshop-db-deployer",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "memory" : "256M",
+      "disk-quota" : "1024M",
+      "no-route" : true,
+      "dependency-type" : "hard",
+      "buildpack" : "nodejs_buildpack",
+      "tasks" : [ {
+        "name" : "deploy",
+        "memory" : "256M",
+        "command" : "npm start"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-db-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-db",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : { },
+    "parameters" : {
+      "type" : "managed-service",
+      "service" : "hana",
+      "service-plan" : "hdi-shared"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "path" : "xs-security.json",
+      "service-plan" : "application",
+      "type" : "managed-service",
+      "service" : "xsuaa"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "enable-parallel-deployments" : true
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 06 11 08:35:47.845#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7207#
+[MergeDescriptorsStep] Descriptors validated and merged#
+#2026 06 11 08:35:47.845#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7207#
+Step "Merge Descriptors" finished#
+#2026 06 11 08:35:47.878#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7208#
+[DetectDeployedMtaStep] Executing task "detectDeployedMtaTask" of process "8b6105ea-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:35:47.878#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7208#
+[DetectDeployedMtaStep] Detecting deployed MTA...#
+#2026 06 11 08:35:47.933#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7208#
+[DetectDeployedMtaStep] Detecting MTA by id pnpm-bookshop and namespace null#
+#2026 06 11 08:35:47.934#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7208#
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=ae9923f29f997ebecfe18aa98e931aa5,!mta_namespace"...#
+#2026 06 11 08:35:47.987#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7208#
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=ae9923f29f997ebecfe18aa98e931aa5,!mta_namespace"...#
+#2026 06 11 08:35:48.013#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7208#
+[DetectDeployedMtaStep] No deployed MTA detected - this is initial deployment of MTA with ID "pnpm-bookshop"#
+#2026 06 11 08:35:48.018#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7208#
+[DetectDeployedMtaStep] Detecting backup mta by id "pnpm-bookshop" and namespace "null"#
+#2026 06 11 08:35:48.018#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7208#
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=ae9923f29f997ebecfe18aa98e931aa5,mta_namespace=b698114a0995e936895b9598a6c19a2c"...#
+#2026 06 11 08:35:48.059#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7208#
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=ae9923f29f997ebecfe18aa98e931aa5,mta_namespace=b698114a0995e936895b9598a6c19a2c"...#
+#2026 06 11 08:35:48.092#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7208#
+[DetectDeployedMtaStep] Deployed MTA service keys: [ ]#
+#2026 06 11 08:35:48.092#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7208#
+Step "Detect Deployed MTA" finished#
+#2026 06 11 08:35:48.128#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7209#
+[XS2CollectSystemParametersStep] Executing task "collectSystemParametersTask" of process "8b6105ea-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:35:48.129#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7209#
+[XS2CollectSystemParametersStep] Collecting system parameters...#
+#2026 06 11 08:35:48.130#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7209#
+[XS2CollectSystemParametersStep] Getting default domain...#
+#2026 06 11 08:35:48.159#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7209#
+[XS2CollectSystemParametersStep] Default domain: cfapps.us10-001.hana.ondemand.com#
+#2026 06 11 08:35:48.159#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7209#
+[XS2CollectSystemParametersStep] Checking for overwriting read-only parameters for mta with id: "pnpm-bookshop"#
+#2026 06 11 08:35:48.159#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7209#
+[XS2CollectSystemParametersStep] No read-only parameters are overwritten#
+#2026 06 11 08:35:48.172#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7209#
+[XS2CollectSystemParametersStep] Descriptor with system parameters: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "pnpm-bookshop",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-srv",
+    "type" : "javascript.nodejs",
+    "path" : "pnpm-bookshop-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "pnpm-bookshop-srv",
+      "generated-password" : "********",
+      "default-live-url" : "${protocol}://${default-live-uri}",
+      "default-uri" : "${host}.${domain}",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "default-live-host" : "1dbf1420trial-dev-pnpm-bookshop-srv",
+      "instances" : "${default-instances}",
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "1dbf1420trial-dev-pnpm-bookshop-srv",
+      "app-name" : "${default-app-name}",
+      "default-live-uri" : "1dbf1420trial-dev-pnpm-bookshop-srv.${domain}",
+      "protocol" : "https",
+      "default-live-app-name" : "pnpm-bookshop-srv",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "disk-quota" : "1024M",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "********",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "${default-url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-db-deployer",
+    "type" : "com.sap.xs.hdi",
+    "path" : "pnpm-bookshop-db-deployer",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "pnpm-bookshop-db-deployer",
+      "generated-password" : "********",
+      "default-live-url" : "${protocol}://${default-live-uri}",
+      "default-uri" : "${host}.${domain}",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer",
+      "instances" : "${default-instances}",
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer",
+      "app-name" : "${default-app-name}",
+      "default-live-uri" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer.${domain}",
+      "protocol" : "https",
+      "default-live-app-name" : "pnpm-bookshop-db-deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "disk-quota" : "1024M",
+      "dependency-type" : "hard",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "name" : "deploy",
+        "memory" : "256M",
+        "command" : "npm start"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-db-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-db",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "${default-service-name}",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "pnpm-bookshop-db",
+      "type" : "managed-service",
+      "default-service-name" : "pnpm-bookshop-db",
+      "default-container-name" : "1DBF1420TRIAL_DEV_PNPM_BOOKSHOP_DB"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "xs-security.json",
+      "service-name" : "${default-service-name}",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "********",
+      "type" : "managed-service",
+      "default-service-name" : "********",
+      "default-container-name" : "********"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "pnpm-bookshop",
+    "authorization-url" : "********",
+    "org-guid" : "23cbe6d0-fe3d-49c4-9c01-b431f09dcad0",
+    "org" : "1dbf1420trial",
+    "deploy-target" : "1dbf1420trial dev",
+    "enable-parallel-deployments" : true,
+    "space" : "dev",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "cf61afcd-6bd1-49a1-b8cb-fa31a94e72be",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20260611083547"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 06 11 08:35:48.172#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7209#
+[XS2CollectSystemParametersStep] Version rule: SAME_HIGHER#
+#2026 06 11 08:35:48.172#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7209#
+[XS2CollectSystemParametersStep] Detected new MTA version: "1.0.0"#
+#2026 06 11 08:35:48.177#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7209#
+[XS2CollectSystemParametersStep] MTA accepted for deployment#
+#2026 06 11 08:35:48.177#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7209#
+[XS2CollectSystemParametersStep] System parameters collected#
+#2026 06 11 08:35:48.177#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7209#
+Step "Collect System Parameters" finished#
+#2026 06 11 08:35:48.209#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[ProcessDescriptorStep] Executing task "processDescriptorTask" of process "8b6105ea-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:35:48.210#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+#2026 06 11 08:35:48.213#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[ProcessDescriptorStep] Subscriptions: [ ]#
+#2026 06 11 08:35:48.213#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[ProcessDescriptorStep] MTA modules: [pnpm-bookshop-srv, pnpm-bookshop-db-deployer]#
+#2026 06 11 08:35:48.213#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "pnpm-bookshop",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-srv",
+    "type" : "javascript.nodejs",
+    "path" : "pnpm-bookshop-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "pnpm-bookshop-srv",
+      "generated-password" : "********",
+      "default-live-url" : "https://1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "default-live-host" : "1dbf1420trial-dev-pnpm-bookshop-srv",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "1dbf1420trial-dev-pnpm-bookshop-srv",
+      "app-name" : "pnpm-bookshop-srv",
+      "default-live-uri" : "1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "pnpm-bookshop-srv",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "disk-quota" : "1024M",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "1dbf1420trial-dev-pnpm-bookshop-srv",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "********",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "https://1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-db-deployer",
+    "type" : "com.sap.xs.hdi",
+    "path" : "pnpm-bookshop-db-deployer",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "https://1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "pnpm-bookshop-db-deployer",
+      "generated-password" : "********",
+      "default-live-url" : "https://1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer",
+      "app-name" : "pnpm-bookshop-db-deployer",
+      "default-live-uri" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "pnpm-bookshop-db-deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "disk-quota" : "1024M",
+      "dependency-type" : "hard",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "command" : "npm start",
+        "memory" : "256M",
+        "name" : "deploy"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-db-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-db",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "pnpm-bookshop-db",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "pnpm-bookshop-db",
+      "type" : "managed-service",
+      "default-service-name" : "pnpm-bookshop-db",
+      "default-container-name" : "1DBF1420TRIAL_DEV_PNPM_BOOKSHOP_DB"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "xs-security.json",
+      "service-name" : "********",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "********",
+      "type" : "managed-service",
+      "default-service-name" : "********",
+      "default-container-name" : "********"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "pnpm-bookshop",
+    "authorization-url" : "********",
+    "org-guid" : "23cbe6d0-fe3d-49c4-9c01-b431f09dcad0",
+    "org" : "1dbf1420trial",
+    "deploy-target" : "1dbf1420trial dev",
+    "enable-parallel-deployments" : true,
+    "region-primary-domain" : "us10.hana.ondemand.com",
+    "space" : "dev",
+    "region-domain" : "us10-001.hana.ondemand.com",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "cf61afcd-6bd1-49a1-b8cb-fa31a94e72be",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20260611083547"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 06 11 08:35:48.213#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+#2026 06 11 08:35:48.213#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+Step "Process Descriptor Step" finished#
+#2026 06 11 08:35:48.246#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[XS2BuildCloudDeployModelStep] Executing task "buildDeployModelTask" of process "8b6105ea-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:35:48.248#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[XS2BuildCloudDeployModelStep] Service keys defined for content deployment grouped by service name: { }#
+#2026 06 11 08:35:48.248#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[XS2BuildCloudDeployModelStep] Building cloud deployment model...#
+#2026 06 11 08:35:48.249#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[XS2BuildCloudDeployModelStep] MTA archive modules: [pnpm-bookshop-srv, pnpm-bookshop-db-deployer]#
+#2026 06 11 08:35:48.249#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[XS2BuildCloudDeployModelStep] Deployed modules: []#
+#2026 06 11 08:35:48.250#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[XS2BuildCloudDeployModelStep] MTA modules: [pnpm-bookshop-srv, pnpm-bookshop-db-deployer]#
+#2026 06 11 08:35:48.250#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[XS2BuildCloudDeployModelStep] Service keys to create: {
+  "pnpm-bookshop-auth" : "********",
+  "pnpm-bookshop-db" : [ ]
+}#
+#2026 06 11 08:35:48.250#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[XS2BuildCloudDeployModelStep] Modules to deploy: [{
+  "majorSchemaVersion" : 3,
+  "name" : "pnpm-bookshop-srv",
+  "type" : "javascript.nodejs",
+  "path" : "pnpm-bookshop-srv",
+  "properties" : { },
+  "parameters" : {
+    "default-url" : "https://1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-app-name" : "pnpm-bookshop-srv",
+    "generated-password" : "********",
+    "default-live-url" : "https://1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+    "memory" : "256M",
+    "default-instances" : 1,
+    "default-live-host" : "1dbf1420trial-dev-pnpm-bookshop-srv",
+    "instances" : 1,
+    "buildpack" : "nodejs_buildpack",
+    "default-host" : "1dbf1420trial-dev-pnpm-bookshop-srv",
+    "app-name" : "pnpm-bookshop-srv",
+    "default-live-uri" : "1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+    "protocol" : "https",
+    "default-live-app-name" : "pnpm-bookshop-srv",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "disk-quota" : "1024M",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "host" : "1dbf1420trial-dev-pnpm-bookshop-srv",
+    "generated-user" : "********"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-db",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "srv-api",
+    "isPublic" : false,
+    "properties" : {
+      "srv-url" : "https://1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-srv",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+}, {
+  "majorSchemaVersion" : 3,
+  "name" : "pnpm-bookshop-db-deployer",
+  "type" : "com.sap.xs.hdi",
+  "path" : "pnpm-bookshop-db-deployer",
+  "properties" : {
+    "EXIT" : 1
+  },
+  "parameters" : {
+    "default-url" : "https://1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-app-name" : "pnpm-bookshop-db-deployer",
+    "generated-password" : "********",
+    "default-live-url" : "https://1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "memory" : "256M",
+    "default-instances" : 1,
+    "no-route" : true,
+    "default-live-host" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer",
+    "instances" : 1,
+    "buildpack" : "nodejs_buildpack",
+    "default-host" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer",
+    "app-name" : "pnpm-bookshop-db-deployer",
+    "default-live-uri" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "protocol" : "https",
+    "default-live-app-name" : "pnpm-bookshop-db-deployer",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "disk-quota" : "1024M",
+    "dependency-type" : "hard",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "host" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer",
+    "generated-user" : "********",
+    "tasks" : [ {
+      "command" : "npm start",
+      "memory" : "256M",
+      "name" : "deploy"
+    } ],
+    "no-start" : true
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-db",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-db-deployer",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+}]#
+#2026 06 11 08:35:48.251#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[XS2BuildCloudDeployModelStep] Custom domains: []#
+#2026 06 11 08:35:48.253#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[XS2BuildCloudDeployModelStep] Calculating resource batches...#
+#2026 06 11 08:35:48.253#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[XS2BuildCloudDeployModelStep] Calculating resource batches completed.#
+#2026 06 11 08:35:48.253#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[XS2BuildCloudDeployModelStep] Cloud deployment model built#
+#2026 06 11 08:35:48.253#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+Step "Build Deploy Model" finished#
+#2026 06 11 08:35:48.290#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[BuildCloudUndeployModelStep] Executing task "buildUndeployModelTask" of process "8b6105ea-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:35:48.291#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[BuildCloudUndeployModelStep] Building cloud undeployment model...#
+#2026 06 11 08:35:48.292#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[BuildCloudUndeployModelStep] Detecting service keys to delete.#
+#2026 06 11 08:35:48.292#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[BuildCloudUndeployModelStep] No deployed service keys detected!#
+#2026 06 11 08:35:48.292#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[BuildCloudUndeployModelStep] Detected service keys to delete "[]"#
+#2026 06 11 08:35:48.295#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+Step "Build Undeploy Model" finished#
+#2026 06 11 08:35:48.329#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[AddDomainsStep] Executing task "addDomainsTask" of process "8b6105ea-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:35:48.330#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[AddDomainsStep] Custom domains: []#
+#2026 06 11 08:35:48.330#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+Step "Add Domains" finished#
+#2026 06 11 08:35:48.441#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Executing task "prepareModulesDeploymentTask" of process "8bf24a6e-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:35:48.442#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Extracting services and resolving dynamic parameters from batch#
+#2026 06 11 08:35:48.443#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Services to create: [ {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "pnpm-bookshop-db",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "pnpm-bookshop",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "{\"name\":\"pnpm-bookshop-db\"}"
+    },
+    "labels" : {
+      "mta_id" : "ae9923f29f997ebecfe18aa98e931aa5"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "pnpm-bookshop-db",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}, {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "********",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "pnpm-bookshop",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "********"
+    },
+    "labels" : {
+      "mta_id" : "ae9923f29f997ebecfe18aa98e931aa5"
+    }
+  },
+  "label" : "xsuaa",
+  "plan" : "application",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "********",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+} ]#
+#2026 06 11 08:35:48.444#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+Step "Extract Services with Resolved Dynamic parameters from batch" finished#
+#2026 06 11 08:35:48.532#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "8c02764c-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:35:48.533#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+[CheckServiceOperationStateStep] Getting service instance "pnpm-bookshop-auth"...#
+#2026 06 11 08:35:48.565#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7204#
+Step "Check for service operations in Progress" finished#
+#2026 06 11 08:35:48.596#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "8c02764c-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:35:48.598#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "pnpm-bookshop-auth"...#
+#2026 06 11 08:35:48.604#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "pnpm-bookshop-auth"...#
+#2026 06 11 08:35:48.628#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[DetermineServiceCreateUpdateServiceActionsStep] Setting service "pnpm-bookshop-auth" parameters from "xs-security.json"#
+#2026 06 11 08:35:48.665#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+[DetermineServiceCreateUpdateServiceActionsStep] Service should be created#
+#2026 06 11 08:35:48.668#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7202#
+Step "Determine update actions" finished#
+#2026 06 11 08:35:48.721#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7205#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "8c02764c-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:35:48.724#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7205#
+[CreateServiceStep] Creating service "pnpm-bookshop-auth" from MTA resource "pnpm-bookshop-auth"...#
+#2026 06 11 08:35:48.729#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7205#
+[CreateServiceStep] Creating service instance: {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "********",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "pnpm-bookshop",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "********"
+    },
+    "labels" : {
+      "mta_id" : "ae9923f29f997ebecfe18aa98e931aa5"
+    }
+  },
+  "label" : "xsuaa",
+  "plan" : "application",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "********",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}#
+#2026 06 11 08:35:48.930#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7205#
+[CreateServiceStep] Service "pnpm-bookshop-auth" created#
+#2026 06 11 08:35:48.930#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7205#
+[CreateServiceStep] Triggered service operations: {
+  "pnpm-bookshop-auth" : "CREATE"
+}#
+#2026 06 11 08:35:48.931#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7205#
+Step "Create" finished#
+#2026 06 11 08:35:49.417#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7272#
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "8c822deb-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:35:49.476#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7272#
+[CheckServiceOperationStateStep] Getting service instance "pnpm-bookshop-db"...#
+#2026 06 11 08:35:49.517#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7272#
+Step "Check for service operations in Progress" finished#
+#2026 06 11 08:35:49.635#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7270#
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "8c822deb-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:35:49.636#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7270#
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "pnpm-bookshop-db"...#
+#2026 06 11 08:35:49.639#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7270#
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "pnpm-bookshop-db"...#
+#2026 06 11 08:35:49.674#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7270#
+[DetermineServiceCreateUpdateServiceActionsStep] Service should be created#
+#2026 06 11 08:35:49.676#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7270#
+Step "Determine update actions" finished#
+#2026 06 11 08:35:49.710#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7270#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "8c822deb-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:35:49.712#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7270#
+[CreateServiceStep] Creating service "pnpm-bookshop-db" from MTA resource "pnpm-bookshop-db"...#
+#2026 06 11 08:35:49.717#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7270#
+[CreateServiceStep] Creating service instance: {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "pnpm-bookshop-db",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "pnpm-bookshop",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "{\"name\":\"pnpm-bookshop-db\"}"
+    },
+    "labels" : {
+      "mta_id" : "ae9923f29f997ebecfe18aa98e931aa5"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "pnpm-bookshop-db",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}#
+#2026 06 11 08:35:49.914#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7270#
+[CreateServiceStep] Service "pnpm-bookshop-db" created#
+#2026 06 11 08:35:49.914#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7270#
+[CreateServiceStep] Triggered service operations: {
+  "pnpm-bookshop-db" : "CREATE"
+}#
+#2026 06 11 08:35:49.915#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7270#
+Step "Create" finished#
+#2026 06 11 08:35:59.440#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7277#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "8c02764c-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:35:59.441#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7277#
+[CreateServiceStep] Polling service operations...#
+#2026 06 11 08:35:59.443#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7277#
+[CreateServiceStep] Getting service instance "pnpm-bookshop-auth"...#
+#2026 06 11 08:35:59.454#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7272#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "8c822deb-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:35:59.455#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7272#
+[CreateServiceStep] Polling service operations...#
+#2026 06 11 08:35:59.457#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7272#
+[CreateServiceStep] Getting service instance "pnpm-bookshop-db"...#
+#2026 06 11 08:35:59.545#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7277#
+[CreateServiceStep] Last operation for service "pnpm-bookshop-auth": {
+  "type" : "CREATE",
+  "description" : "",
+  "state" : "SUCCEEDED"
+}#
+#2026 06 11 08:35:59.545#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7277#
+[CreateServiceStep] Service "pnpm-bookshop-auth" created#
+#2026 06 11 08:35:59.545#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7277#
+[CreateServiceStep] 1 of 1 done#
+#2026 06 11 08:35:59.550#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7277#
+[CreateServiceStep] Remaining services to poll: [ ]#
+#2026 06 11 08:35:59.551#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7277#
+Step "Create" finished#
+#2026 06 11 08:35:59.551#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7272#
+[CreateServiceStep] Last operation for service "pnpm-bookshop-db": {
+  "type" : "CREATE",
+  "state" : "SUCCEEDED"
+}#
+#2026 06 11 08:35:59.551#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7272#
+[CreateServiceStep] Service "pnpm-bookshop-db" created#
+#2026 06 11 08:35:59.551#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7272#
+[CreateServiceStep] 1 of 1 done#
+#2026 06 11 08:35:59.556#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7272#
+[CreateServiceStep] Remaining services to poll: [ ]#
+#2026 06 11 08:35:59.557#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7272#
+Step "Create" finished#
+#2026 06 11 08:36:00.368#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[PrepareModulesDeploymentStep] Executing task "prepareModulesDeploymentTask" of process "9305a8db-6570-11f1-afdf-eeee0a9bc28a"...#
+#2026 06 11 08:36:00.369#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[PrepareModulesDeploymentStep] Preparing modules deployment...#
+#2026 06 11 08:36:00.375#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+Step "Prepare Modules Deployment" finished#
+#2026 06 11 08:36:00.425#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[ComputeNextModulesStep] Executing task "computeNextModulesToDeployInParallel" of process "9305a8db-6570-11f1-afdf-eeee0a9bc28a"...#
+#2026 06 11 08:36:00.426#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[ComputeNextModulesStep] Computing modules for next parallel iteration...#
+#2026 06 11 08:36:00.490#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[ComputeNextModulesStep] Completed modules detected: []#
+#2026 06 11 08:36:00.490#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[ComputeNextModulesStep] All modules for deploy detected: [pnpm-bookshop-srv, pnpm-bookshop-db-deployer]#
+#2026 06 11 08:36:00.490#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[ComputeNextModulesStep] Modules not for deploy detected: []#
+#2026 06 11 08:36:00.491#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[ComputeNextModulesStep] Computed modules for next parallel iteration: [ {
+  "majorSchemaVersion" : 3,
+  "name" : "pnpm-bookshop-srv",
+  "type" : "javascript.nodejs",
+  "path" : "pnpm-bookshop-srv",
+  "properties" : { },
+  "parameters" : {
+    "app-name" : "pnpm-bookshop-srv",
+    "buildpack" : "nodejs_buildpack",
+    "default-app-name" : "pnpm-bookshop-srv",
+    "default-host" : "1dbf1420trial-dev-pnpm-bookshop-srv",
+    "default-instances" : 1,
+    "default-live-app-name" : "pnpm-bookshop-srv",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "default-live-host" : "1dbf1420trial-dev-pnpm-bookshop-srv",
+    "default-live-uri" : "1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-live-url" : "https://1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-url" : "https://1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "disk-quota" : "1024M",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "generated-password" : "********",
+    "generated-user" : "********",
+    "host" : "1dbf1420trial-dev-pnpm-bookshop-srv",
+    "instances" : 1,
+    "memory" : "256M",
+    "protocol" : "https"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-db",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "srv-api",
+    "isPublic" : false,
+    "properties" : {
+      "srv-url" : "https://1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-srv",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+}, {
+  "majorSchemaVersion" : 3,
+  "name" : "pnpm-bookshop-db-deployer",
+  "type" : "com.sap.xs.hdi",
+  "path" : "pnpm-bookshop-db-deployer",
+  "properties" : {
+    "EXIT" : 1
+  },
+  "parameters" : {
+    "app-name" : "pnpm-bookshop-db-deployer",
+    "buildpack" : "nodejs_buildpack",
+    "default-app-name" : "pnpm-bookshop-db-deployer",
+    "default-host" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer",
+    "default-instances" : 1,
+    "default-live-app-name" : "pnpm-bookshop-db-deployer",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "default-live-host" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer",
+    "default-live-uri" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-live-url" : "https://1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-url" : "https://1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "dependency-type" : "hard",
+    "disk-quota" : "1024M",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "generated-password" : "********",
+    "generated-user" : "********",
+    "host" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer",
+    "instances" : 1,
+    "memory" : "256M",
+    "no-route" : true,
+    "no-start" : true,
+    "protocol" : "https",
+    "tasks" : [ {
+      "command" : "npm start",
+      "memory" : "256M",
+      "name" : "deploy"
+    } ]
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-db",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-db-deployer",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+} ]#
+#2026 06 11 08:36:00.491#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+Step "Compute Next Modules To Deploy" finished#
+#2026 06 11 08:36:00.643#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[ProcessDescriptorStep] Executing task "reprocessDescriptorTask" of process "93356b30-6570-11f1-afdf-eeee0a9bc28a"...#
+#2026 06 11 08:36:00.644#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+#2026 06 11 08:36:00.647#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[ProcessDescriptorStep] Subscriptions: [ ]#
+#2026 06 11 08:36:00.655#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[ProcessDescriptorStep] MTA modules: [pnpm-bookshop-srv, pnpm-bookshop-db-deployer]#
+#2026 06 11 08:36:00.658#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "pnpm-bookshop",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-srv",
+    "type" : "javascript.nodejs",
+    "path" : "pnpm-bookshop-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "pnpm-bookshop-srv",
+      "generated-password" : "********",
+      "default-live-url" : "https://1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "default-live-host" : "1dbf1420trial-dev-pnpm-bookshop-srv",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "1dbf1420trial-dev-pnpm-bookshop-srv",
+      "app-name" : "pnpm-bookshop-srv",
+      "default-live-uri" : "1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "pnpm-bookshop-srv",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "disk-quota" : "1024M",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "1dbf1420trial-dev-pnpm-bookshop-srv",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "********",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "https://1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-db-deployer",
+    "type" : "com.sap.xs.hdi",
+    "path" : "pnpm-bookshop-db-deployer",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "https://1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "pnpm-bookshop-db-deployer",
+      "generated-password" : "********",
+      "default-live-url" : "https://1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer",
+      "app-name" : "pnpm-bookshop-db-deployer",
+      "default-live-uri" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "pnpm-bookshop-db-deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "disk-quota" : "1024M",
+      "dependency-type" : "hard",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "command" : "npm start",
+        "memory" : "256M",
+        "name" : "deploy"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-db-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-db",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "pnpm-bookshop-db",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "pnpm-bookshop-db",
+      "type" : "managed-service",
+      "default-service-name" : "pnpm-bookshop-db",
+      "default-container-name" : "1DBF1420TRIAL_DEV_PNPM_BOOKSHOP_DB"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "xs-security.json",
+      "service-name" : "********",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "********",
+      "type" : "managed-service",
+      "default-service-name" : "********",
+      "default-container-name" : "********"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "pnpm-bookshop",
+    "authorization-url" : "********",
+    "org-guid" : "23cbe6d0-fe3d-49c4-9c01-b431f09dcad0",
+    "org" : "1dbf1420trial",
+    "deploy-target" : "1dbf1420trial dev",
+    "enable-parallel-deployments" : true,
+    "region-primary-domain" : "us10.hana.ondemand.com",
+    "space" : "dev",
+    "region-domain" : "us10-001.hana.ondemand.com",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "cf61afcd-6bd1-49a1-b8cb-fa31a94e72be",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20260611083547"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 06 11 08:36:00.658#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+#2026 06 11 08:36:00.658#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+Step "Re-Process Descriptor Step" finished#
+#2026 06 11 08:36:00.698#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[BuildApplicationDeployModelStep] Executing task "buildApplicationDeployModelTask" of process "93356b30-6570-11f1-afdf-eeee0a9bc28a"...#
+#2026 06 11 08:36:00.702#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[BuildApplicationDeployModelStep] Building cloud deployment model for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:00.706#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[BuildApplicationDeployModelStep] No health-check-type is specified. Setting default type: port#
+#2026 06 11 08:36:00.706#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[BuildApplicationDeployModelStep] Building configuration entries for org 1dbf1420trial, space dev, spaceId cf61afcd-6bd1-49a1-b8cb-fa31a94e72be and namespace null!#
+#2026 06 11 08:36:00.708#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[BuildApplicationDeployModelStep] Configuration entries to publish: [ ]#
+#2026 06 11 08:36:00.708#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[BuildApplicationDeployModelStep] Cloud deployment model for application built#
+#2026 06 11 08:36:00.708#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+Step "Build Application Deploy Model" finished#
+#2026 06 11 08:36:00.754#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[CreateOrUpdateAppStep] Executing task "createAppTask" of process "93356b30-6570-11f1-afdf-eeee0a9bc28a"...#
+#2026 06 11 08:36:00.757#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[CreateOrUpdateAppStep] Getting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:00.813#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[CreateOrUpdateAppStep] Creating application "pnpm-bookshop-srv" from MTA module "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:00.820#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[CreateOrUpdateAppStep] Creating application "pnpm-bookshop-srv" with disk "1,024" memory "256", URIs "1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com" and staging: "{
+  "buildpacks" : [ "nodejs_buildpack" ],
+  "healthCheckType" : "port",
+  "appFeatures" : { }
+}"#
+#2026 06 11 08:36:01.278#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[CreateOrUpdateAppStep] Application "pnpm-bookshop-srv" created#
+#2026 06 11 08:36:01.278#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+Step "Create App" finished#
+#2026 06 11 08:36:01.396#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[ProcessDescriptorStep] Executing task "reprocessDescriptorTask" of process "93abd3a9-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:01.397#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+#2026 06 11 08:36:01.399#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[ProcessDescriptorStep] Subscriptions: [ ]#
+#2026 06 11 08:36:01.403#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[ProcessDescriptorStep] MTA modules: [pnpm-bookshop-srv, pnpm-bookshop-db-deployer]#
+#2026 06 11 08:36:01.405#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "pnpm-bookshop",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-srv",
+    "type" : "javascript.nodejs",
+    "path" : "pnpm-bookshop-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "pnpm-bookshop-srv",
+      "generated-password" : "********",
+      "default-live-url" : "https://1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "default-live-host" : "1dbf1420trial-dev-pnpm-bookshop-srv",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "1dbf1420trial-dev-pnpm-bookshop-srv",
+      "app-name" : "pnpm-bookshop-srv",
+      "default-live-uri" : "1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "pnpm-bookshop-srv",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "disk-quota" : "1024M",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "1dbf1420trial-dev-pnpm-bookshop-srv",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "********",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "https://1dbf1420trial-dev-pnpm-bookshop-srv.cfapps.us10-001.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-db-deployer",
+    "type" : "com.sap.xs.hdi",
+    "path" : "pnpm-bookshop-db-deployer",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "https://1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "pnpm-bookshop-db-deployer",
+      "generated-password" : "********",
+      "default-live-url" : "https://1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer",
+      "app-name" : "pnpm-bookshop-db-deployer",
+      "default-live-uri" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "pnpm-bookshop-db-deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "disk-quota" : "1024M",
+      "dependency-type" : "hard",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "1dbf1420trial-dev-pnpm-bookshop-db-deployer",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "command" : "npm start",
+        "memory" : "256M",
+        "name" : "deploy"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "pnpm-bookshop-db-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "pnpm-bookshop-db",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "pnpm-bookshop-db",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "pnpm-bookshop-db",
+      "type" : "managed-service",
+      "default-service-name" : "pnpm-bookshop-db",
+      "default-container-name" : "1DBF1420TRIAL_DEV_PNPM_BOOKSHOP_DB"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "xs-security.json",
+      "service-name" : "********",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "********",
+      "type" : "managed-service",
+      "default-service-name" : "********",
+      "default-container-name" : "********"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "pnpm-bookshop",
+    "authorization-url" : "********",
+    "org-guid" : "23cbe6d0-fe3d-49c4-9c01-b431f09dcad0",
+    "org" : "1dbf1420trial",
+    "deploy-target" : "1dbf1420trial dev",
+    "enable-parallel-deployments" : true,
+    "region-primary-domain" : "us10.hana.ondemand.com",
+    "space" : "dev",
+    "region-domain" : "us10-001.hana.ondemand.com",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "cf61afcd-6bd1-49a1-b8cb-fa31a94e72be",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20260611083547"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 06 11 08:36:01.405#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+#2026 06 11 08:36:01.405#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+Step "Re-Process Descriptor Step" finished#
+#2026 06 11 08:36:01.429#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[BuildApplicationDeployModelStep] Executing task "buildApplicationDeployModelTask" of process "93abd3a9-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:01.430#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[BuildApplicationDeployModelStep] Building cloud deployment model for application "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:01.432#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[BuildApplicationDeployModelStep] No health-check-type is specified. Setting default type: port#
+#2026 06 11 08:36:01.433#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[BuildApplicationDeployModelStep] Building configuration entries for org 1dbf1420trial, space dev, spaceId cf61afcd-6bd1-49a1-b8cb-fa31a94e72be and namespace null!#
+#2026 06 11 08:36:01.433#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[BuildApplicationDeployModelStep] Configuration entries to publish: [ ]#
+#2026 06 11 08:36:01.433#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[BuildApplicationDeployModelStep] Cloud deployment model for application built#
+#2026 06 11 08:36:01.433#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+Step "Build Application Deploy Model" finished#
+#2026 06 11 08:36:01.387#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[CheckServiceBindingOperationStep] Executing task "checkForServiceBindingOperationInProgress" of process "93ab10b3-6570-11f1-afdf-eeee0a9bc28a"...#
+#2026 06 11 08:36:01.387#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[CheckServiceBindingOperationStep] Checking for service binding operation in progress between app "pnpm-bookshop-srv" and service instance "pnpm-bookshop-db"#
+#2026 06 11 08:36:01.388#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[CheckServiceBindingOperationStep] Getting application guid "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:01.430#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[CheckServiceBindingOperationStep] Getting GUID of required service instance "pnpm-bookshop-db"...#
+#2026 06 11 08:36:01.459#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[CheckServiceBindingOperationStep] Getting binding of service instance "d45544fc-4906-412c-bac4-b63dc83acf7e" with application "1795b543-fad5-4384-acf1-768bf9615c97"...#
+#2026 06 11 08:36:01.479#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+Step "Check For Service Binding Operation In Progress" finished#
+#2026 06 11 08:36:01.435#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7216#
+[CheckServiceBindingOperationStep] Executing task "checkForServiceBindingOperationInProgress" of process "93b41177-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:36:01.435#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7216#
+[CheckServiceBindingOperationStep] Checking for service binding operation in progress between app "pnpm-bookshop-srv" and service instance "pnpm-bookshop-auth"#
+#2026 06 11 08:36:01.436#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7216#
+[CheckServiceBindingOperationStep] Getting application guid "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:01.472#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7216#
+[CheckServiceBindingOperationStep] Getting GUID of required service instance "pnpm-bookshop-auth"...#
+#2026 06 11 08:36:01.501#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7216#
+[CheckServiceBindingOperationStep] Getting binding of service instance "b0348699-c992-4d05-bb91-6ca419822cd6" with application "1795b543-fad5-4384-acf1-768bf9615c97"...#
+#2026 06 11 08:36:01.524#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7216#
+Step "Check For Service Binding Operation In Progress" finished#
+#2026 06 11 08:36:01.518#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "93ab10b3-6570-11f1-afdf-eeee0a9bc28a"...#
+#2026 06 11 08:36:01.520#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "pnpm-bookshop-srv" to service instance "pnpm-bookshop-db"#
+#2026 06 11 08:36:01.520#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[DetermineApplicationServiceBindingActionsStep] Getting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:01.563#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "pnpm-bookshop-srv": { }#
+#2026 06 11 08:36:01.584#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "pnpm-bookshop-srv" and service instance "pnpm-bookshop-db": unbind - false bind - true#
+#2026 06 11 08:36:01.584#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+Step "Determine Application Service Binding Actions" finished#
+#2026 06 11 08:36:01.551#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7217#
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "93b41177-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:36:01.553#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7217#
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "pnpm-bookshop-srv" to service instance "pnpm-bookshop-auth"#
+#2026 06 11 08:36:01.553#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7217#
+[DetermineApplicationServiceBindingActionsStep] Getting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:01.603#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7217#
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "pnpm-bookshop-srv": { }#
+#2026 06 11 08:36:01.627#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7217#
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "pnpm-bookshop-srv" and service instance "pnpm-bookshop-auth": unbind - false bind - true#
+#2026 06 11 08:36:01.627#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7217#
+Step "Determine Application Service Binding Actions" finished#
+#2026 06 11 08:36:01.463#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[CreateOrUpdateAppStep] Executing task "createAppTask" of process "93abd3a9-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:01.464#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[CreateOrUpdateAppStep] Getting application "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:01.494#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[CreateOrUpdateAppStep] Creating application "pnpm-bookshop-db-deployer" from MTA module "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:01.499#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[CreateOrUpdateAppStep] Creating application "pnpm-bookshop-db-deployer" with disk "1,024" memory "256", URIs "" and staging: "{
+  "buildpacks" : [ "nodejs_buildpack" ],
+  "healthCheckType" : "port",
+  "appFeatures" : { }
+}"#
+#2026 06 11 08:36:01.767#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[CreateOrUpdateAppStep] Application "pnpm-bookshop-db-deployer" created#
+#2026 06 11 08:36:01.767#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+Step "Create App" finished#
+#2026 06 11 08:36:01.632#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "93ab10b3-6570-11f1-afdf-eeee0a9bc28a"...#
+#2026 06 11 08:36:01.634#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[BindServiceToApplicationStep] Binding service instance "pnpm-bookshop-db" to application "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:01.642#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+[BindServiceToApplicationStep] Binding service instance "pnpm-bookshop-db" to application "pnpm-bookshop-srv" with parameters: { }#
+#2026 06 11 08:36:01.782#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7447#
+Step "Bind Service to Application" finished#
+#2026 06 11 08:36:01.664#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7217#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "93b41177-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:36:01.665#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7217#
+[BindServiceToApplicationStep] Binding service instance "pnpm-bookshop-auth" to application "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:01.672#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7217#
+[BindServiceToApplicationStep] Binding service instance "pnpm-bookshop-auth" to application "pnpm-bookshop-srv" with parameters: { }#
+#2026 06 11 08:36:01.804#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7217#
+Step "Bind Service to Application" finished#
+#2026 06 11 08:36:01.837#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[CheckServiceBindingOperationStep] Executing task "checkForServiceBindingOperationInProgress" of process "93f1dda7-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:01.837#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[CheckServiceBindingOperationStep] Checking for service binding operation in progress between app "pnpm-bookshop-db-deployer" and service instance "pnpm-bookshop-db"#
+#2026 06 11 08:36:01.838#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[CheckServiceBindingOperationStep] Getting application guid "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:01.876#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[CheckServiceBindingOperationStep] Getting GUID of required service instance "pnpm-bookshop-db"...#
+#2026 06 11 08:36:01.908#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[CheckServiceBindingOperationStep] Getting binding of service instance "d45544fc-4906-412c-bac4-b63dc83acf7e" with application "e84d2586-c106-4b6e-89f9-e62c5a9f40df"...#
+#2026 06 11 08:36:01.932#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+Step "Check For Service Binding Operation In Progress" finished#
+#2026 06 11 08:36:01.956#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "93f1dda7-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:01.957#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "pnpm-bookshop-db-deployer" to service instance "pnpm-bookshop-db"#
+#2026 06 11 08:36:01.957#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[DetermineApplicationServiceBindingActionsStep] Getting application "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:01.999#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "pnpm-bookshop-db-deployer": { }#
+#2026 06 11 08:36:02.021#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "pnpm-bookshop-db-deployer" and service instance "pnpm-bookshop-db": unbind - false bind - true#
+#2026 06 11 08:36:02.021#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+Step "Determine Application Service Binding Actions" finished#
+#2026 06 11 08:36:02.047#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "93f1dda7-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:02.048#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[BindServiceToApplicationStep] Binding service instance "pnpm-bookshop-db" to application "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:02.052#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+[BindServiceToApplicationStep] Binding service instance "pnpm-bookshop-db" to application "pnpm-bookshop-db-deployer" with parameters: { }#
+#2026 06 11 08:36:02.176#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7274#
+Step "Bind Service to Application" finished#
+#2026 06 11 08:36:09.576#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7285#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "93b41177-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:36:09.579#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7285#
+[BindServiceToApplicationStep] Getting async job "f3ee3a09-e70f-49fc-8db5-f245999a14b9"#
+#2026 06 11 08:36:09.603#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7285#
+[BindServiceToApplicationStep] Getting service instance "pnpm-bookshop-auth"...#
+#2026 06 11 08:36:09.709#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7285#
+[BindServiceToApplicationStep] Async service binding operation with id "f3ee3a09-e70f-49fc-8db5-f245999a14b9" finished#
+#2026 06 11 08:36:09.711#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7285#
+Step "Bind Service to Application" finished#
+#2026 06 11 08:36:09.852#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7279#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "93f1dda7-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:09.853#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7279#
+[BindServiceToApplicationStep] Getting async job "4a306827-adec-4a34-9e90-9a6de0b11681"#
+#2026 06 11 08:36:09.877#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7280#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "93ab10b3-6570-11f1-afdf-eeee0a9bc28a"...#
+#2026 06 11 08:36:09.878#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7280#
+[BindServiceToApplicationStep] Getting async job "a1da2d02-2976-4621-af7e-4e5d8abb8f57"#
+#2026 06 11 08:36:09.881#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7279#
+[BindServiceToApplicationStep] Getting service instance "pnpm-bookshop-db"...#
+#2026 06 11 08:36:09.903#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7280#
+[BindServiceToApplicationStep] Getting service instance "pnpm-bookshop-db"...#
+#2026 06 11 08:36:09.983#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7279#
+[BindServiceToApplicationStep] Async service binding operation with id "4a306827-adec-4a34-9e90-9a6de0b11681" finished#
+#2026 06 11 08:36:09.984#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7279#
+Step "Bind Service to Application" finished#
+#2026 06 11 08:36:10.014#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7280#
+[BindServiceToApplicationStep] Async service binding operation with id "a1da2d02-2976-4621-af7e-4e5d8abb8f57" finished#
+#2026 06 11 08:36:10.015#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7280#
+Step "Bind Service to Application" finished#
+#2026 06 11 08:36:10.079#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7279#
+[DetermineVcapServicesPropertiesChangedStep] Executing task "determineVcapServicesPropertiesChangedTask" of process "98d9f80c-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:10.081#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7279#
+[DetermineVcapServicesPropertiesChangedStep] VCAP_SERVICES properties for application "pnpm-bookshop-db-deployer" changed: true#
+#2026 06 11 08:36:10.081#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7279#
+Step "Determine vcap services properties changed" finished#
+#2026 06 11 08:36:10.132#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7280#
+[DetermineVcapServicesPropertiesChangedStep] Executing task "determineVcapServicesPropertiesChangedTask" of process "98df283a-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:10.136#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7280#
+[DetermineVcapServicesPropertiesChangedStep] VCAP_SERVICES properties for application "pnpm-bookshop-srv" changed: true#
+#2026 06 11 08:36:10.136#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7280#
+Step "Determine vcap services properties changed" finished#
+#2026 06 11 08:36:10.115#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7279#
+[UploadAppStep] Executing task "uploadAppTask" of process "98d9f80c-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:10.115#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7279#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 06 11 08:36:10.115#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7279#
+[UploadAppStep] Uploading application "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:10.123#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7279#
+[UploadAppStep] Getting application "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:10.159#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7279#
+[UploadAppStep] Getting environment of application "e84d2586-c106-4b6e-89f9-e62c5a9f40df"...#
+#2026 06 11 08:36:10.162#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7280#
+[UploadAppStep] Executing task "uploadAppTask" of process "98df283a-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:10.163#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7280#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 06 11 08:36:10.163#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7280#
+[UploadAppStep] Uploading application "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:10.167#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7280#
+[UploadAppStep] Getting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:10.195#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7279#
+[UploadAppStep] Calculating application digest: "pnpm-bookshop-db-deployer"#
+#2026 06 11 08:36:10.207#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7280#
+[UploadAppStep] Getting environment of application "1795b543-fad5-4384-acf1-768bf9615c97"...#
+#2026 06 11 08:36:10.239#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7280#
+[UploadAppStep] Calculating application digest: "pnpm-bookshop-srv"#
+#2026 06 11 08:36:10.258#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7279#
+Step "Upload App" finished#
+#2026 06 11 08:36:10.334#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7280#
+Step "Upload App" finished#
+#2026 06 11 08:36:19.811#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7288#
+[UploadAppStep] Executing task "uploadAppTask" of process "98df283a-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:19.812#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7288#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 06 11 08:36:19.813#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#pool-21-thread-1#
+[UploadAppStep] Upload of application: pnpm-bookshop-srv started on instance: 1#
+#2026 06 11 08:36:19.813#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#pool-21-thread-1#
+[UploadAppStep] Uploading file "pnpm-bookshop-srv/data.zip" for application "pnpm-bookshop-srv"#
+#2026 06 11 08:36:19.931#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#pool-21-thread-1#
+[UploadAppStep] Time elapsed for app binary download: 117 in millis#
+#2026 06 11 08:36:19.931#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#pool-21-thread-1#
+[UploadAppStep] Size of app pnpm-bookshop-srv is 4,450,171 bytes#
+#2026 06 11 08:36:19.931#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#pool-21-thread-1#
+[UploadAppStep] Asynchronously uploading binaries for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:20.156#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#pool-21-thread-1#
+[UploadAppStep] Started async upload of application "pnpm-bookshop-srv"#
+#2026 06 11 08:36:20.160#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7288#
+[UploadAppStep] Time elapsed for upload: 348 in millis#
+#2026 06 11 08:36:20.160#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7288#
+[UploadAppStep] Getting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:20.200#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7288#
+[UploadAppStep] Getting environment of application "1795b543-fad5-4384-acf1-768bf9615c97"...#
+#2026 06 11 08:36:20.205#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#App upload monitor: 7061c660-7069-4934-b6c3-2e43ed73d408#
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+#2026 06 11 08:36:20.235#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7288#
+[UploadAppStep] Updating environment of application "pnpm-bookshop-srv"#
+#2026 06 11 08:36:20.319#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7288#
+Step "Upload App" finished#
+#2026 06 11 08:36:19.709#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7454#
+[UploadAppStep] Executing task "uploadAppTask" of process "98d9f80c-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:19.711#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7454#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 06 11 08:36:19.713#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#pool-21-thread-3#
+[UploadAppStep] Upload of application: pnpm-bookshop-db-deployer started on instance: 2#
+#2026 06 11 08:36:19.714#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#pool-21-thread-3#
+[UploadAppStep] Uploading file "pnpm-bookshop-db-deployer/data.zip" for application "pnpm-bookshop-db-deployer"#
+#2026 06 11 08:36:19.817#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#pool-21-thread-3#
+[UploadAppStep] Time elapsed for app binary download: 103 in millis#
+#2026 06 11 08:36:19.817#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#pool-21-thread-3#
+[UploadAppStep] Size of app pnpm-bookshop-db-deployer is 2,436,805 bytes#
+#2026 06 11 08:36:19.817#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#pool-21-thread-3#
+[UploadAppStep] Asynchronously uploading binaries for application "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:20.107#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#pool-21-thread-3#
+[UploadAppStep] Started async upload of application "pnpm-bookshop-db-deployer"#
+#2026 06 11 08:36:20.145#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7454#
+[UploadAppStep] Time elapsed for upload: 434 in millis#
+#2026 06 11 08:36:20.146#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7454#
+[UploadAppStep] Getting application "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:20.169#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#App upload monitor: 078fefa9-83b5-44c0-a39d-66353dbb5d21#
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+#2026 06 11 08:36:20.211#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7454#
+[UploadAppStep] Getting environment of application "e84d2586-c106-4b6e-89f9-e62c5a9f40df"...#
+#2026 06 11 08:36:20.249#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7454#
+[UploadAppStep] Updating environment of application "pnpm-bookshop-db-deployer"#
+#2026 06 11 08:36:20.334#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7454#
+Step "Upload App" finished#
+#2026 06 11 08:36:25.191#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#App upload monitor: 078fefa9-83b5-44c0-a39d-66353dbb5d21#
+[UploadAppStep] Upload status: READY#
+#2026 06 11 08:36:25.232#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#App upload monitor: 7061c660-7069-4934-b6c3-2e43ed73d408#
+[UploadAppStep] Upload status: READY#
+#2026 06 11 08:36:29.824#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7293#
+[UploadAppStep] Executing task "uploadAppTask" of process "98df283a-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:29.825#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7293#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 06 11 08:36:29.825#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7293#
+[UploadAppStep] Checking upload status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:29.826#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7293#
+[UploadAppStep] Getting package "7061c660-7069-4934-b6c3-2e43ed73d408"...#
+#2026 06 11 08:36:29.851#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7293#
+[UploadAppStep] Application "pnpm-bookshop-srv" uploaded#
+#2026 06 11 08:36:29.852#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7293#
+Step "Upload App" finished#
+#2026 06 11 08:36:29.908#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7292#
+[ScaleAppStep] Executing task "scaleAppTask" of process "98df283a-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:29.910#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7292#
+[ScaleAppStep] Scaling application "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:29.910#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7292#
+[ScaleAppStep] Application "pnpm-bookshop-srv" scaled#
+#2026 06 11 08:36:29.910#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7292#
+Step "Scale App" finished#
+#2026 06 11 08:36:29.957#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7294#
+[UploadAppStep] Executing task "uploadAppTask" of process "98d9f80c-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:29.958#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7294#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 06 11 08:36:29.958#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7294#
+[UploadAppStep] Checking upload status of application "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:29.958#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7294#
+[UploadAppStep] Getting package "078fefa9-83b5-44c0-a39d-66353dbb5d21"...#
+#2026 06 11 08:36:29.980#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7294#
+[UploadAppStep] Application "pnpm-bookshop-db-deployer" uploaded#
+#2026 06 11 08:36:29.981#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7294#
+Step "Upload App" finished#
+#2026 06 11 08:36:30.086#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7293#
+[ScaleAppStep] Executing task "scaleAppTask" of process "98d9f80c-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:30.087#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7293#
+[ScaleAppStep] Scaling application "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:30.087#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7293#
+[ScaleAppStep] Application "pnpm-bookshop-db-deployer" scaled#
+#2026 06 11 08:36:30.087#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7293#
+Step "Scale App" finished#
+#2026 06 11 08:36:30.003#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7273#
+[DetermineDesiredStateAchievingActionsStep] Executing task "determineDesiredStateAchievingActionsTask" of process "98df283a-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:30.007#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7273#
+[DetermineDesiredStateAchievingActionsStep] Getting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:30.055#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7273#
+[DetermineDesiredStateAchievingActionsStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:30.055#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7273#
+[DetermineDesiredStateAchievingActionsStep] Getting environment of application "1795b543-fad5-4384-acf1-768bf9615c97"...#
+#2026 06 11 08:36:30.094#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7273#
+[DetermineDesiredStateAchievingActionsStep] Current state of application pnpm-bookshop-srv: STOPPED#
+#2026 06 11 08:36:30.094#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7273#
+[DetermineDesiredStateAchievingActionsStep] Desired state of application pnpm-bookshop-srv: STARTED#
+#2026 06 11 08:36:30.094#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7273#
+[DetermineDesiredStateAchievingActionsStep] Actions that should be executed on application pnpm-bookshop-srv: [STAGE, START]#
+#2026 06 11 08:36:30.094#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7273#
+Step "Determine Desired State Achieving Actions" finished#
+#2026 06 11 08:36:30.151#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7292#
+[DetermineDesiredStateAchievingActionsStep] Executing task "determineDesiredStateAchievingActionsTask" of process "98d9f80c-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:30.153#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7292#
+[DetermineDesiredStateAchievingActionsStep] Getting application "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:30.193#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7292#
+[DetermineDesiredStateAchievingActionsStep] Getting instances for application "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:30.193#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7292#
+[DetermineDesiredStateAchievingActionsStep] Getting environment of application "e84d2586-c106-4b6e-89f9-e62c5a9f40df"...#
+#2026 06 11 08:36:30.241#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7292#
+[DetermineDesiredStateAchievingActionsStep] Current state of application pnpm-bookshop-db-deployer: STOPPED#
+#2026 06 11 08:36:30.241#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7292#
+[DetermineDesiredStateAchievingActionsStep] Desired state of application pnpm-bookshop-db-deployer: STOPPED#
+#2026 06 11 08:36:30.241#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7292#
+[DetermineDesiredStateAchievingActionsStep] Actions that should be executed on application pnpm-bookshop-db-deployer: [STAGE]#
+#2026 06 11 08:36:30.241#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7292#
+Step "Determine Desired State Achieving Actions" finished#
+#2026 06 11 08:36:30.160#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7293#
+[StageAppStep] Executing task "stageAppTask" of process "98df283a-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:30.161#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7293#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 06 11 08:36:30.162#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7293#
+[StageAppStep] Staging application "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:30.168#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7293#
+[StageAppStep] Creating build for package "7061c660-7069-4934-b6c3-2e43ed73d408"...#
+#2026 06 11 08:36:30.269#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7292#
+[StageAppStep] Executing task "stageAppTask" of process "98d9f80c-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:30.270#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7292#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 06 11 08:36:30.272#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7292#
+[StageAppStep] Staging application "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:30.277#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7292#
+[StageAppStep] Creating build for package "078fefa9-83b5-44c0-a39d-66353dbb5d21"...#
+#2026 06 11 08:36:30.725#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7292#
+Step "Stage App" finished#
+#2026 06 11 08:36:30.926#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7293#
+Step "Stage App" finished#
+#2026 06 11 08:36:39.991#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7239#
+[StageAppStep] Executing task "stageAppTask" of process "98d9f80c-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:39.992#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7239#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 06 11 08:36:39.993#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7239#
+[StageAppStep] Checking status of application "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:39.993#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7239#
+[StageAppStep] Getting build "a4a139d5-c355-4a80-bfff-8907ffdaf352"...#
+#2026 06 11 08:36:40.055#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7239#
+[StageAppStep] Staging status of application "pnpm-bookshop-db-deployer": PENDING#
+#2026 06 11 08:36:40.056#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7239#
+[StageAppStep] Getting application guid "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:40.145#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7239#
+Step "Stage App" finished#
+#2026 06 11 08:36:40.370#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7298#
+[StageAppStep] Executing task "stageAppTask" of process "98df283a-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:40.371#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7298#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 06 11 08:36:40.372#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7298#
+[StageAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:40.372#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7298#
+[StageAppStep] Getting build "454bb53e-de25-4e70-895b-2936acc19a6c"...#
+#2026 06 11 08:36:40.404#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7298#
+[StageAppStep] Staging status of application "pnpm-bookshop-srv": PENDING#
+#2026 06 11 08:36:40.405#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7298#
+[StageAppStep] Getting application guid "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:40.510#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7298#
+Step "Stage App" finished#
+#2026 06 11 08:36:50.144#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7301#
+[StageAppStep] Executing task "stageAppTask" of process "98d9f80c-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:50.145#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7301#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 06 11 08:36:50.145#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7301#
+[StageAppStep] Checking status of application "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:50.145#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7301#
+[StageAppStep] Getting build "a4a139d5-c355-4a80-bfff-8907ffdaf352"...#
+#2026 06 11 08:36:50.182#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7301#
+[StageAppStep] Staging status of application "pnpm-bookshop-db-deployer": STAGED#
+#2026 06 11 08:36:50.183#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7301#
+[StageAppStep] Getting application guid "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:50.240#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7311#
+[StageAppStep] Executing task "stageAppTask" of process "98df283a-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:50.240#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7311#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 06 11 08:36:50.241#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7311#
+[StageAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:50.241#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7311#
+[StageAppStep] Getting build "454bb53e-de25-4e70-895b-2936acc19a6c"...#
+#2026 06 11 08:36:50.275#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7311#
+[StageAppStep] Staging status of application "pnpm-bookshop-srv": PENDING#
+#2026 06 11 08:36:50.278#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7311#
+[StageAppStep] Getting application guid "pnpm-bookshop-srv"...#
+#2026 06 11 08:36:50.287#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7301#
+[StageAppStep] Getting build "a4a139d5-c355-4a80-bfff-8907ffdaf352"...#
+#2026 06 11 08:36:50.320#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7301#
+[StageAppStep] Binding droplet "43f12acd-2426-4b5c-9efd-71f9ba4c1c90" to application "e84d2586-c106-4b6e-89f9-e62c5a9f40df"...#
+#2026 06 11 08:36:50.371#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7311#
+Step "Stage App" finished#
+#2026 06 11 08:36:50.379#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7301#
+[StageAppStep] Application "pnpm-bookshop-db-deployer" staged#
+#2026 06 11 08:36:50.384#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7301#
+Step "Stage App" finished#
+#2026 06 11 08:36:50.713#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7310#
+[PrepareToExecuteTasksStep] Executing task "prepareToExecuteTasksTask" of process "b10f530a-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:50.714#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7310#
+Step "Prepare To Execute Tasks" finished#
+#2026 06 11 08:36:50.802#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7309#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "b10f530a-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:36:50.803#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7309#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 06 11 08:36:50.805#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7309#
+[ExecuteTaskStep] Executing task "deploy" on application "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:36:50.809#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7309#
+[ExecuteTaskStep] Running task on application "pnpm-bookshop-db-deployer": {
+  "name" : "deploy",
+  "command" : "npm start",
+  "limits" : {
+    "memory" : 256
+  }
+}#
+#2026 06 11 08:36:51.173#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7309#
+Step "Execute Task" finished#
+#2026 06 11 08:37:00.232#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7315#
+[StageAppStep] Executing task "stageAppTask" of process "98df283a-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:37:00.234#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7315#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 06 11 08:37:00.235#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7315#
+[StageAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:00.235#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7315#
+[StageAppStep] Getting build "454bb53e-de25-4e70-895b-2936acc19a6c"...#
+#2026 06 11 08:37:00.264#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7315#
+[StageAppStep] Staging status of application "pnpm-bookshop-srv": STAGED#
+#2026 06 11 08:37:00.265#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7315#
+[StageAppStep] Getting application guid "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:00.358#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7315#
+[StageAppStep] Getting build "454bb53e-de25-4e70-895b-2936acc19a6c"...#
+#2026 06 11 08:37:00.388#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7315#
+[StageAppStep] Binding droplet "6d6f05ca-cee3-457a-877e-67d8937e3f0a" to application "1795b543-fad5-4384-acf1-768bf9615c97"...#
+#2026 06 11 08:37:00.437#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7315#
+[StageAppStep] Application "pnpm-bookshop-srv" staged#
+#2026 06 11 08:37:00.446#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7315#
+Step "Stage App" finished#
+#2026 06 11 08:37:00.578#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7314#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "b10f530a-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:37:00.579#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7314#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 06 11 08:37:00.580#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7314#
+[ExecuteTaskStep] Getting task "d3eb79c9-385c-4599-933b-477bf260a0e4"...#
+#2026 06 11 08:37:00.618#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7314#
+[ExecuteTaskStep] Task execution status: running#
+#2026 06 11 08:37:00.619#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7314#
+[ExecuteTaskStep] Getting application guid "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:37:00.724#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7314#
+Step "Execute Task" finished#
+#2026 06 11 08:37:00.672#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7321#
+[RestartAppStep] Executing task "startAppTask" of process "98df283a-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:37:00.674#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7321#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:37:00.675#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7321#
+[RestartAppStep] Getting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:00.718#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7321#
+[RestartAppStep] Starting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:00.723#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7321#
+[RestartAppStep] Starting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:00.974#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7321#
+Step "Start App" finished#
+#2026 06 11 08:37:10.966#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7335#
+[RestartAppStep] Executing task "startAppTask" of process "b736cbe1-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:37:10.967#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7335#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:37:10.968#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7335#
+[RestartAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:10.968#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7335#
+[RestartAppStep] Getting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:11.021#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7335#
+[RestartAppStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:11.059#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7335#
+[RestartAppStep] Application "pnpm-bookshop-srv": 0 of 1 instances running (1 starting)#
+#2026 06 11 08:37:11.091#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7335#
+Step "Start App" finished#
+#2026 06 11 08:37:10.949#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7337#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "b10f530a-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:37:10.950#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7337#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 06 11 08:37:10.953#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7337#
+[ExecuteTaskStep] Getting task "d3eb79c9-385c-4599-933b-477bf260a0e4"...#
+#2026 06 11 08:37:10.987#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7337#
+[ExecuteTaskStep] Task execution status: succeeded#
+#2026 06 11 08:37:10.988#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7337#
+[ExecuteTaskStep] Getting application guid "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:37:11.095#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7337#
+Step "Execute Task" finished#
+#2026 06 11 08:37:11.215#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7326#
+[IncrementIndexStep] Executing task "incrementTaskIndexTask" of process "b10f530a-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:37:11.216#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7326#
+Step "Increment Task Index" finished#
+#2026 06 11 08:37:11.297#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7330#
+[PublishConfigurationEntriesStep] Executing task "publishProvidedDependenciesTask" of process "98d9f80c-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:37:11.298#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7330#
+[PublishConfigurationEntriesStep] Publishing public provided dependencies for application "pnpm-bookshop-db-deployer"...#
+#2026 06 11 08:37:11.298#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7330#
+[PublishConfigurationEntriesStep] No public provided dependencies for publishing#
+#2026 06 11 08:37:11.298#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7330#
+Step "Publish Provided Dependencies" finished#
+#2026 06 11 08:37:11.335#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7337#
+[CreateOrUpdateServiceBrokerStep] Executing task "createOrUpdateServiceBrokerTask" of process "98d9f80c-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:37:11.336#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7337#
+[CreateOrUpdateServiceBrokerStep] Creating service brokers...#
+#2026 06 11 08:37:11.337#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7337#
+Step "Create Or Update Service Broker " finished#
+#2026 06 11 08:37:20.881#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7263#
+[RestartAppStep] Executing task "startAppTask" of process "bd3eae52-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:37:20.882#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7263#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:37:20.884#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7263#
+[RestartAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:20.885#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7263#
+[RestartAppStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:20.926#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7263#
+[RestartAppStep] Application "pnpm-bookshop-srv": 0 of 1 instances running (1 starting)#
+#2026 06 11 08:37:20.954#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7263#
+Step "Start App" finished#
+#2026 06 11 08:37:31.322#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7350#
+[RestartAppStep] Executing task "startAppTask" of process "c31fce81-6570-11f1-9001-eeee0a9eb60f"...#
+#2026 06 11 08:37:31.323#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7350#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:37:31.324#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7350#
+[RestartAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:31.324#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7350#
+[RestartAppStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:31.376#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7350#
+[RestartAppStep] Application "pnpm-bookshop-srv": 0 of 1 instances running (1 starting)#
+#2026 06 11 08:37:31.411#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7350#
+Step "Start App" finished#
+#2026 06 11 08:37:41.213#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7359#
+[RestartAppStep] Executing task "startAppTask" of process "c95b43f3-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:37:41.216#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7359#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:37:41.217#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7359#
+[RestartAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:41.218#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7359#
+[RestartAppStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:41.255#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7359#
+[RestartAppStep] Application "pnpm-bookshop-srv": 0 of 1 instances running (1 crashed)#
+#2026 06 11 08:37:41.310#Z#ERROR#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7359#
+[RestartAppStep] Error starting application "pnpm-bookshop-srv": Some instances have crashed. Check the application logs of your application for details.#
+#2026 06 11 08:37:41.314#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7359#
+[RestartAppStep] Download the MTA operation logs for more details.#
+#2026 06 11 08:37:41.318#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7359#
+Step "Start App" finished#
+#2026 06 11 08:37:43.522#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7499#
+[RestartAppStep] Executing task "startAppTask" of process "c95b43f3-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:37:43.526#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7499#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:37:43.538#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7499#
+[RestartAppStep] Getting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:43.578#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7499#
+[RestartAppStep] Stopping application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:43.586#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7499#
+[RestartAppStep] Stopping application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:43.721#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7499#
+[RestartAppStep] Starting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:43.727#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7499#
+[RestartAppStep] Starting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:43.959#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7499#
+Step "Start App" finished#
+#2026 06 11 08:37:51.293#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7365#
+[RestartAppStep] Executing task "startAppTask" of process "d0d63e69-6570-11f1-afdf-eeee0a9bc28a"...#
+#2026 06 11 08:37:51.295#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7365#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:37:51.352#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7365#
+[RestartAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:51.353#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7365#
+[RestartAppStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:37:51.407#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7365#
+[RestartAppStep] Application "pnpm-bookshop-srv": 0 of 1 instances running (1 starting)#
+#2026 06 11 08:37:51.446#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7365#
+Step "Start App" finished#
+#2026 06 11 08:38:01.505#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7370#
+[RestartAppStep] Executing task "startAppTask" of process "d54c5d5f-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:38:01.507#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7370#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:38:01.507#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7370#
+[RestartAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:38:01.508#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7370#
+[RestartAppStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:38:01.551#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7370#
+[RestartAppStep] Application "pnpm-bookshop-srv": 0 of 1 instances running (1 starting)#
+#2026 06 11 08:38:01.620#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7370#
+Step "Start App" finished#
+#2026 06 11 08:38:11.579#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7380#
+[RestartAppStep] Executing task "startAppTask" of process "db5ccab9-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:38:11.580#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7380#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:38:11.580#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7380#
+[RestartAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:38:11.581#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7380#
+[RestartAppStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:38:11.637#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7380#
+[RestartAppStep] Application "pnpm-bookshop-srv": 0 of 1 instances running (1 starting)#
+#2026 06 11 08:38:11.694#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7380#
+Step "Start App" finished#
+#2026 06 11 08:38:21.723#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7391#
+[RestartAppStep] Executing task "startAppTask" of process "e15df674-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:38:21.725#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7391#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:38:21.726#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7391#
+[RestartAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:38:21.727#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7391#
+[RestartAppStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:38:21.777#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7391#
+[RestartAppStep] Application "pnpm-bookshop-srv": 0 of 1 instances running (1 starting)#
+#2026 06 11 08:38:21.835#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7391#
+Step "Start App" finished#
+#2026 06 11 08:38:31.828#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7399#
+[RestartAppStep] Executing task "startAppTask" of process "e76b091b-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:38:31.829#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7399#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:38:31.830#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7399#
+[RestartAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:38:31.831#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7399#
+[RestartAppStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:38:31.891#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7399#
+[RestartAppStep] Application "pnpm-bookshop-srv": 0 of 1 instances running (1 crashed)#
+#2026 06 11 08:38:31.914#Z#ERROR#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7399#
+[RestartAppStep] Error starting application "pnpm-bookshop-srv": Some instances have crashed. Check the application logs of your application for details.#
+#2026 06 11 08:38:31.918#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7399#
+[RestartAppStep] Download the MTA operation logs for more details.#
+#2026 06 11 08:38:31.922#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7399#
+Step "Start App" finished#
+#2026 06 11 08:38:33.868#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7522#
+[RestartAppStep] Executing task "startAppTask" of process "e76b091b-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:38:33.872#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7522#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:38:33.882#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7522#
+[RestartAppStep] Getting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:38:33.925#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7522#
+[RestartAppStep] Stopping application "pnpm-bookshop-srv"...#
+#2026 06 11 08:38:33.932#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7522#
+[RestartAppStep] Stopping application "pnpm-bookshop-srv"...#
+#2026 06 11 08:38:34.066#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7522#
+[RestartAppStep] Starting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:38:34.072#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7522#
+[RestartAppStep] Starting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:38:34.311#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7522#
+Step "Start App" finished#
+#2026 06 11 08:38:41.907#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7404#
+[RestartAppStep] Executing task "startAppTask" of process "eed95909-6570-11f1-afdf-eeee0a9bc28a"...#
+#2026 06 11 08:38:41.908#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7404#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:38:41.964#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7404#
+[RestartAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:38:41.965#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7404#
+[RestartAppStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:38:42.024#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7404#
+[RestartAppStep] Application "pnpm-bookshop-srv": 0 of 1 instances running (1 starting)#
+#2026 06 11 08:38:42.049#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7404#
+Step "Start App" finished#
+#2026 06 11 08:38:51.912#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7413#
+[RestartAppStep] Executing task "startAppTask" of process "f375c4d2-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:38:51.913#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7413#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:38:51.914#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7413#
+[RestartAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:38:51.915#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7413#
+[RestartAppStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:38:51.952#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7413#
+[RestartAppStep] Application "pnpm-bookshop-srv": 0 of 1 instances running (1 starting)#
+#2026 06 11 08:38:52.010#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7413#
+Step "Start App" finished#
+#2026 06 11 08:39:02.051#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7423#
+[RestartAppStep] Executing task "startAppTask" of process "f965d8ff-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:39:02.052#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7423#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:39:02.053#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7423#
+[RestartAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:39:02.054#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7423#
+[RestartAppStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:39:02.103#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7423#
+[RestartAppStep] Application "pnpm-bookshop-srv": 0 of 1 instances running (1 starting)#
+#2026 06 11 08:39:02.168#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7423#
+Step "Start App" finished#
+#2026 06 11 08:39:12.136#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7305#
+[RestartAppStep] Executing task "startAppTask" of process "ff738877-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:39:12.138#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7305#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:39:12.139#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7305#
+[RestartAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:39:12.140#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7305#
+[RestartAppStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:39:12.182#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7305#
+[RestartAppStep] Application "pnpm-bookshop-srv": 0 of 1 instances running (1 crashed)#
+#2026 06 11 08:39:12.217#Z#ERROR#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7305#
+[RestartAppStep] Error starting application "pnpm-bookshop-srv": Some instances have crashed. Check the application logs of your application for details.#
+#2026 06 11 08:39:12.224#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7305#
+[RestartAppStep] Download the MTA operation logs for more details.#
+#2026 06 11 08:39:12.230#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7305#
+Step "Start App" finished#
+#2026 06 11 08:39:14.955#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7543#
+[RestartAppStep] Executing task "startAppTask" of process "ff738877-6570-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:39:14.958#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7543#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:39:14.969#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7543#
+[RestartAppStep] Getting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:39:15.015#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7543#
+[RestartAppStep] Stopping application "pnpm-bookshop-srv"...#
+#2026 06 11 08:39:15.022#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7543#
+[RestartAppStep] Stopping application "pnpm-bookshop-srv"...#
+#2026 06 11 08:39:15.177#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7543#
+[RestartAppStep] Starting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:39:15.184#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7543#
+[RestartAppStep] Starting application "pnpm-bookshop-srv"...#
+#2026 06 11 08:39:15.399#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7543#
+Step "Start App" finished#
+#2026 06 11 08:39:22.553#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7437#
+[RestartAppStep] Executing task "startAppTask" of process "075707ef-6571-11f1-afdf-eeee0a9bc28a"...#
+#2026 06 11 08:39:22.554#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7437#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:39:22.555#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7437#
+[RestartAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:39:22.556#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7437#
+[RestartAppStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:39:22.597#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7437#
+[RestartAppStep] Application "pnpm-bookshop-srv": 0 of 1 instances running (1 starting)#
+#2026 06 11 08:39:22.631#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7437#
+Step "Start App" finished#
+#2026 06 11 08:39:32.318#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7444#
+[RestartAppStep] Executing task "startAppTask" of process "0ba6175a-6571-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:39:32.319#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7444#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:39:32.320#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7444#
+[RestartAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:39:32.321#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7444#
+[RestartAppStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:39:32.371#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7444#
+[RestartAppStep] Application "pnpm-bookshop-srv": 0 of 1 instances running (1 starting)#
+#2026 06 11 08:39:32.406#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7444#
+Step "Start App" finished#
+#2026 06 11 08:39:42.573#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7448#
+[RestartAppStep] Executing task "startAppTask" of process "1179a2b5-6571-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:39:42.576#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7448#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:39:42.577#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7448#
+[RestartAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:39:42.577#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7448#
+[RestartAppStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:39:42.620#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7448#
+[RestartAppStep] Application "pnpm-bookshop-srv": 0 of 1 instances running (1 starting)#
+#2026 06 11 08:39:42.674#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7448#
+Step "Start App" finished#
+#2026 06 11 08:39:53.329#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7454#
+[RestartAppStep] Executing task "startAppTask" of process "1798690a-6571-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:39:53.331#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7454#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:39:53.332#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7454#
+[RestartAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:39:53.333#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7454#
+[RestartAppStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:39:53.378#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7454#
+[RestartAppStep] Application "pnpm-bookshop-srv": 0 of 1 instances running (1 starting)#
+#2026 06 11 08:39:53.437#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7454#
+Step "Start App" finished#
+#2026 06 11 08:40:03.129#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7343#
+[RestartAppStep] Executing task "startAppTask" of process "1e037a0d-6571-11f1-bbb5-eeee0a95761a"...#
+#2026 06 11 08:40:03.132#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7343#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 06 11 08:40:03.193#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7343#
+[RestartAppStep] Checking status of application "pnpm-bookshop-srv"...#
+#2026 06 11 08:40:03.194#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7343#
+[RestartAppStep] Getting instances for application "pnpm-bookshop-srv"...#
+#2026 06 11 08:40:03.253#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7343#
+[RestartAppStep] Application "pnpm-bookshop-srv": 0 of 1 instances running (1 crashed)#
+#2026 06 11 08:40:03.315#Z#ERROR#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7343#
+[RestartAppStep] Error starting application "pnpm-bookshop-srv": Some instances have crashed. Check the application logs of your application for details.#
+#2026 06 11 08:40:03.322#Z#INFO#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7343#
+[RestartAppStep] Download the MTA operation logs for more details.#
+#2026 06 11 08:40:03.328#Z#DEBUG#8b6105c4-6570-11f1-9001-eeee0a9eb60f.OPERATION#flowable-async-job-executor-thread-7343#
+Step "Start App" finished#

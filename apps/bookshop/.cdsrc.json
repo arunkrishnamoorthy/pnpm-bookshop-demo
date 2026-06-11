@@ -1,0 +1,13 @@
+{
+  "[development]": {
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "credentials": {
+          "url": "db.sqlite"
+        }
+      },
+      "auth": "dummy"
+    }
+  }
+}

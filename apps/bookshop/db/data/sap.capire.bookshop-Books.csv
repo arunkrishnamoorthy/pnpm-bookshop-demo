@@ -1,0 +1,5 @@
+ID;title;author_ID;stock;price;currency_code
+aeb23a77-b584-4581-84a5-7b2f695e8b0a;Wuthering Heights;d4d2c380-71e2-4035-9f63-eb4a0c9898e1;12;11.11;GBP
+cdb64f3a-1f01-4c9a-85ba-3e5e81c84a2e;Jane Eyre;150d1c3d-5a04-4bfb-bea0-3a1e248e4562;11;12.34;GBP
+f846b0b9-01d4-4f6d-82a4-d79204f67b2f;The Raven;d95bc7d0-7c49-4a3b-8f0f-9f5a42a3d3d8;333;13.13;USD
+6a5b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d;Eleonora;d95bc7d0-7c49-4a3b-8f0f-9f5a42a3d3d8;555;14.00;USD

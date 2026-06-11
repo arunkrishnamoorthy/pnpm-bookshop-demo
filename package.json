@@ -1,0 +1,22 @@
+{
+  "name": "pnpm-bookshop",
+  "version": "1.0.0",
+  "description": "CAP Bookshop example using pnpm workspaces",
+  "private": true,
+  "scripts": {
+    "start": "pnpm --filter @pnpm-bookshop/bookshop start",
+    "watch": "pnpm --filter @pnpm-bookshop/bookshop watch",
+    "build": "pnpm --filter @pnpm-bookshop/bookshop exec npx cds build --production",
+    "build:mta": "pnpm build && pnpm --filter @pnpm-bookshop/bookshop exec npx mbt build",
+    "deploy:cf": "cd apps/bookshop && cf deploy mta_archives/pnpm-bookshop_1.0.0.mtar"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3"
+    ]
+  }
+}

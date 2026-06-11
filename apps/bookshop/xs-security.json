@@ -1,0 +1,29 @@
+{
+  "xsappname": "pnpm-bookshop",
+  "tenant-mode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.admin",
+      "description": "Admin Access"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "Admin",
+      "description": "Admin Role",
+      "scope-references": ["$XSAPPNAME.admin"],
+      "attribute-references": []
+    }
+  ],
+  "role-collections": [
+    {
+      "name": "pnpm-bookshop-admin",
+      "description": "Admin Role Collection",
+      "role-template-references": ["$XSAPPNAME.Admin"]
+    }
+  ],
+  "oauth2-configuration": {
+    "redirect-uris": ["https://*.cfapps.*.hana.ondemand.com/**"]
+  }
+}

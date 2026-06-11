@@ -1,0 +1,7 @@
+packages:
+  - "packages/**"
+  - "apps/**"
+  - "examples/**"
+  - "!**/gen/**"
+
+onlyBuiltDependencies: better-sqlite3
