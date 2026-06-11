@@ -1,6 +1,20 @@
 node_modules/
-*.sqlite
-default-env.json
 gen/
 mta_archives/
 *.mtar
+*.sqlite
+
+# Environment files
+.env
+.env.*
+default-env.json
+.npmrc
+
+# MTA build artifacts
+Makefile_*.mta
+*.log
+mta-op-*
+
+# IDE
+.vscode/
+.idea/
