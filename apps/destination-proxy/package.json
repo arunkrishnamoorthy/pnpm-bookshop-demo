@@ -1,0 +1,14 @@
+{
+  "name": "@pnpm-bookshop/destination-proxy",
+  "version": "1.0.0",
+  "description": "Local proxy resolving BTP destinations via SAP Cloud SDK",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@sap-cloud-sdk/connectivity": "^3",
+    "@sap-cloud-sdk/http-client": "^3",
+    "express": "^4",
+    "http-proxy-middleware": "^3"
+  }
+}

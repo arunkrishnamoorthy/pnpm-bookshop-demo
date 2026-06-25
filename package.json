@@ -8,7 +8,8 @@
     "watch": "pnpm --filter @pnpm-bookshop/bookshop watch",
     "build": "pnpm --filter @pnpm-bookshop/bookshop exec npx cds build --production",
     "build:mta": "pnpm build && pnpm --filter @pnpm-bookshop/bookshop exec npx mbt build",
-    "deploy:cf": "cd apps/bookshop && cf deploy mta_archives/pnpm-bookshop_1.0.0.mtar"
+    "deploy:cf": "cd apps/bookshop && cf deploy mta_archives/pnpm-bookshop_1.0.0.mtar",
+    "start:northwind": "PORT=5001 pnpm --filter @pnpm-bookshop/destination-proxy start & pnpm --filter @pnpm-bookshop/northwind-products start-local"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +19,8 @@
     "onlyBuiltDependencies": [
       "better-sqlite3"
     ]
+  },
+  "devDependencies": {
+    "@zowe/secrets-for-zowe-sdk": "^8.32.0"
   }
 }

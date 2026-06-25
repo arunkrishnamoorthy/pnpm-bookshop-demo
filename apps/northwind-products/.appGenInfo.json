@@ -1,0 +1,28 @@
+{
+  "generationParameters": {
+    "generationDate": "Thu Jun 25 2026 20:54:43 GMT+0200 (Central European Summer Time)",
+    "generatorPlatform": "CLI",
+    "serviceType": "SAP System (ABAP On-Premise)",
+    "metadataFilename": "",
+    "serviceUrl": "https://services.odata.org/V2/Northwind/Northwind.svc/",
+    "appName": "northwind-products",
+    "appTitle": "Northwind Products",
+    "appDescription": "List Report for Northwind Products",
+    "appNamespace": "",
+    "ui5Theme": "sap_horizon",
+    "ui5Version": "1.136.7",
+    "enableEslint": false,
+    "enableTypeScript": false,
+    "showMockDataInfo": true,
+    "generatorVersion": "1.20.3",
+    "template": "List Report Page V2",
+    "generatorName": "SAP Fiori Application Generator",
+    "entityRelatedConfig": [
+      {
+        "type": "Main Entity",
+        "value": "Products"
+      }
+    ],
+    "launchText": "To launch the generated application, run the following from the generated application root folder:\n\n```\n    npm start\n```"
+  }
+}
