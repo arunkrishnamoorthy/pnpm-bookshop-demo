@@ -6,7 +6,8 @@
   "license": "ISC",
   "scripts": {
     "start": "cds-serve",
-    "watch": "cds watch"
+    "watch": "cds watch",
+    "watch-managebooks": "cds watch --open com.alliander.ui.managebooks/index.html?sap-ui-xx-viewCache=false --livereload false"
   },
   "dependencies": {
     "@sap/cds": "^8",
@@ -16,7 +17,8 @@
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
-    "@sap/cds-dk": "^8"
+    "@sap/cds-dk": "^8",
+    "cds-plugin-ui5": "^0.13.0"
   },
   "cds": {
     "[production]": {
@@ -32,17 +34,29 @@
           "for": "hana",
           "src": "db",
           "options": {
-            "model": ["db", "srv"]
+            "model": [
+              "db",
+              "srv"
+            ]
           }
         },
         {
           "for": "node-cf",
           "src": "srv",
           "options": {
-            "model": ["db", "srv"]
+            "model": [
+              "db",
+              "srv"
+            ]
           }
         }
       ]
     }
-  }
+  },
+  "workspaces": [
+    "app/*"
+  ],
+  "sapux": [
+    "app/managebooks"
+  ]
 }
