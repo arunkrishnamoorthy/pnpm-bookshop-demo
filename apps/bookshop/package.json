@@ -10,14 +10,14 @@
     "watch-managebooks": "cds watch --open com.alliander.ui.managebooks/index.html?sap-ui-xx-viewCache=false --livereload false"
   },
   "dependencies": {
-    "@sap/cds": "^8",
+    "@sap/cds": "^9.9.1",
     "@sap/xssec": "^4",
-    "@cap-js/hana": "^1",
+    "@cap-js/hana": "^2",
     "express": "^4"
   },
   "devDependencies": {
-    "@cap-js/sqlite": "^1",
-    "@sap/cds-dk": "^8",
+    "@cap-js/sqlite": "^2.4.0",
+    "@sap/cds-dk": "^9",
     "cds-plugin-ui5": "^0.13.0"
   },
   "cds": {
